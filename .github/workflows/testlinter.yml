@@ -25,8 +25,5 @@ jobs:
         with:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_ACCESS_TOKEN }}
           NETLIFY_DEPLOY_TO_PROD: true
+          build_command: npm install
           
-        name: install dependancies
-          run:|
-            npm install
-            npm start
