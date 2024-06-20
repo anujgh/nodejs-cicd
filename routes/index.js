@@ -12,4 +12,10 @@ router.get('/home', function(req, res) {
   })
 })
 
+router.get('/test', function(req, res) {
+  res.json({
+    msg: 'Hii, This is from test route....'
+  })
+})
+
 module.exports = router;
