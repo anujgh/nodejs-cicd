@@ -16,6 +16,7 @@ router.get('/test', function(req, res) {
   res.json({
     msg: 'Hii, This is from test route....'
   })
+})
 
   
 router.get('/abc', function(req, res) {
